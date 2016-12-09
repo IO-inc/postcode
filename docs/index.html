@@ -64,7 +64,7 @@
             zonecode : data.zonecode,
             addr : fullRoadAddr
         };
-        window.Android.processData(data.postcode + ","  + data.zonecode + "," + fullRoadAddr);
+        window.Android.processData(postData);
         window.postMessageToiOS(postData);
       },
       width : '100%',
